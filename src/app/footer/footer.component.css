@@ -1,0 +1,23 @@
+#footer-bar {
+  justify-content: space-between;
+  position: fixed;
+  padding: 1rem 1rem 5rem 1rem;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 98;
+  background-color: rgba(48, 45, 45, 0.167);
+  border-radius: 5px;
+  min-height: 60px;
+  height: calc(62px + (constant(safe-area-inset-bottom))*1.1);
+  height: calc(62px + (env(safe-area-inset-bottom))*1.1);
+  display: flex;
+  text-align: center;
+}
+
+.footer-bar-1 a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600; /*try*/
+}
+

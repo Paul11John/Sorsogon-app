@@ -1,0 +1,26 @@
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="myform">
+
+    <div class="logo"> WOW!
+        <div class="logo2">SORSOGON</div>
+        <b>"Its more FUN in Sorsogon"</b>
+    </div>
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+      <input type="email" placeholder=" &#xf023;  Email" formControlName="email"/>
+        <input type="password" placeholder=" &#xf023;  Password" formControlName="password"/>
+        <div class="flex-container">
+          <div>
+            <a href="#">Create Account</a>
+          </div>
+          <div>
+            <a href="#">Forgot Credentials</a>
+          </div>
+        </div>
+        <button type="submit">SIGN ME IN </button>
+
+    </form>
+
+</div>
+
